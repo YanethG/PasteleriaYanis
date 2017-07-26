@@ -1,0 +1,13 @@
+from django.db import models
+
+ #create your models here.
+ class post(models.Model)
+      """
+        Almacena las publicaciones realizadas por el equipo
+        administrativo
+
+      """
+        Title = models.CharField(max_lenght=50,held_text= 'Ingrese el titulo de la publecacion')
+        shortitle
+        pubdate = models.DateTimeFimeFiald(auto_now=True )
+        
